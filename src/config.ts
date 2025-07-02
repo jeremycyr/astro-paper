@@ -1,23 +1,23 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  website: "https://jeremycyr.com", // your future deployed domain
+  author: "Jeremy Cyr",
+  profile: "https://www.linkedin.com/in/jeremycyr", // or GitHub/your portfolio
+  desc: "Architecture-first consulting and development for POCs, modernization, and high-velocity teams.",
+  title: "Jeremy Cyr | Software Architecture & Delivery",
+  ogImage: "astropaper-og.jpg", // keep or replace with your own Open Graph image
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
-  showBackButton: true, // show back button in post detail
+  showBackButton: true,
   editPost: {
-    enabled: true,
+    enabled: false, // set to false unless you're encouraging external editing
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/jeremycyr/your-repo/edit/main/", // update if keeping enabled
   },
   dynamicOgImage: true,
-  dir: "ltr", // "rtl" | "auto"
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/Bangkok", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  dir: "ltr",
+  lang: "en",
+  timezone: "America/Detroit", // EST timezone
 } as const;
