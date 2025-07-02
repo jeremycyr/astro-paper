@@ -24,48 +24,78 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
-      </h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="inline-block"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p class="mt-2">
-        Read the blog posts or check
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
-      {
-        // only display if at least one social link is enabled
-        SOCIALS.length > 0 && (
-          <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
-            <Socials />
+      <div class="flex flex-col sm:flex-row sm:items-start sm:gap-8">
+        <div class="flex-shrink-0 mb-6 sm:mb-0">
+          <img
+            src="/assets/jeremycyr.jpeg"
+            alt="Jeremy Cyr headshot"
+            class="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-lg"
+          />
+        </div>
+        
+        <div class="flex-1">
+          <div class="flex items-center gap-3 mb-4">
+            <h1 class="text-4xl font-bold sm:text-5xl">
+              Jeremy Cyr
+            </h1>
+            <a
+              target="_blank"
+              href="/rss.xml"
+              class="inline-block"
+              aria-label="rss feed"
+              title="RSS Feed"
+            >
+              <IconRss
+                width={20}
+                height={20}
+                class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
+              />
+              <span class="sr-only">RSS Feed</span>
+            </a>
           </div>
-        )
-      }
+
+          <p class="text-lg leading-relaxed">
+            <strong>Software Architect & Engineering Leader</strong>
+          </p>
+      
+      <p class="text-lg leading-relaxed mt-4">
+        I help growing companies turn complex technical challenges into scalable, business-aligned solutions. With over 15 years of experience leading enterprise development, I specialize in system integration, platform modernization, large-scale migrations, and greenfield builds that drive real impact.
+      </p>
+      
+      <p class="text-lg leading-relaxed mt-4">
+        I bridge strategy and execution—partnering with product and engineering teams to reduce costs, accelerate time-to-market, and unlock new revenue opportunities through thoughtful architecture and pragmatic delivery.
+      </p>
+      
+      <p class="text-lg leading-relaxed mt-4">
+        I'm currently open to a limited number of consulting engagements where I can make a meaningful difference.
+      </p>
+      
+          <p class="mt-6">
+            Explore my technical insights through the
+            <LinkButton
+              class="underline decoration-dashed underline-offset-4 hover:text-accent"
+              href="/posts/"
+            >
+              articles
+            </LinkButton> below, or
+            <LinkButton
+              class="underline decoration-dashed underline-offset-4 hover:text-accent"
+              href="/about/"
+            >
+              learn more about my background
+            </LinkButton>.
+          </p>
+          {
+            // only display if at least one social link is enabled
+            SOCIALS.length > 0 && (
+              <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
+                <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+                <Socials />
+              </div>
+            )
+          }
+        </div>
+      </div>
     </section>
 
     <Hr />
@@ -89,7 +119,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Recent Articles</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -102,7 +132,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
-        All Posts
+        All Articles
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
     </div>

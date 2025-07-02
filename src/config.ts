@@ -2,8 +2,8 @@ export const SITE = {
   website: "https://jeremycyr.com", // your future deployed domain
   author: "Jeremy Cyr",
   profile: "https://www.linkedin.com/in/jeremycyr", // or GitHub/your portfolio
-  desc: "Architecture-first consulting and development for POCs, modernization, and high-velocity teams.",
-  title: "Jeremy Cyr | Software Architecture & Delivery",
+  desc: "Enterprise software architecture and selective consulting for system integrations, migrations, replatforms, and greenfield development. Helping medium-sized enterprises modernize their technology stack with proven engineering practices.",
+  title: "Jeremy Cyr | Enterprise Integration Architect",
   ogImage: "astropaper-og.jpg", // keep or replace with your own Open Graph image
   lightAndDarkMode: true,
   postPerIndex: 4,

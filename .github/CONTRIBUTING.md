@@ -36,9 +36,9 @@ If you have an idea for a new feature or enhancement that could improve AstroPap
 
 Browse through the existing issues to find one that interests you. You can use labels to filter the issues. See the [Label](https://github.com/satnaing/astro-paper/labels) section for more information.
 
-### Making Changes to a Blog Post
+### Making Changes to an Article
 
-For small changes like typos, syntax fixes, or broken links, click the "Suggest Changes" link below the title of any blog post. This will take you to the .md file, where you can make your changes and submit a pull request for review. For more significant changes to a blog post, it’s recommended to open a new issue or discussion first.
+For small changes like typos, syntax fixes, or broken links, click the "Suggest Changes" link below the title of any article. This will take you to the .md file, where you can make your changes and submit a pull request for review. For more significant changes to an article, it's recommended to open a new issue or discussion first.
 
 ## Helping with GitHub Issues/Discussions
 
