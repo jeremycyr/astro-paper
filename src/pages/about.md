@@ -6,7 +6,7 @@ title: "About"
 <div class="flex flex-col sm:flex-row sm:items-start sm:gap-8 mb-8">
   <div class="flex-shrink-0 mb-6 sm:mb-0">
     <img
-      src="/assets/jeremycyr.jpeg"
+      src="/assets/jeremycyr.jpg"
       alt="Jeremy Cyr headshot"
       class="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-lg mx-auto sm:mx-0"
     />
@@ -35,11 +35,37 @@ My work focuses on enterprise system integration and cloud architecture, particu
 
 ## Professional Experience
 
-### Staff Integration Architect | MillerKnoll (Current)
-Leading enterprise-wide integration initiatives for a global furniture design leader. Architecting solutions that connect manufacturing, supply chain, and customer-facing systems to drive digital transformation across multiple brands.
+<div class="flex gap-6 mb-6">
+  <div class="flex-shrink-0 w-16 flex items-center justify-center">
+    <a href="https://millerknoll.com" target="_blank" rel="noopener noreferrer" class="hover:opacity-80 transition-opacity">
+      <img
+        src="/assets/logos/millerknoll.png"
+        alt="MillerKnoll logo"
+        class="h-12 w-auto max-w-full object-contain"
+      />
+    </a>
+  </div>
+  <div class="flex-1">
+    <h3 class="text-xl font-semibold mb-2">Staff Integration Architect | MillerKnoll (Current)</h3>
+    <p>Leading enterprise-wide integration initiatives for a global furniture design leader. Architecting solutions that connect manufacturing, supply chain, and customer-facing systems to drive digital transformation across multiple brands.</p>
+  </div>
+</div>
 
-### Enterprise Integration Architect | Silk Commerce
-Architected end-to-end e-commerce integration solutions that reduced time-to-market for product launches by 40%. Designed event-driven systems that improved reliability and reduced integration maintenance overhead by 60%.
+<div class="flex gap-6 mb-6">
+  <div class="flex-shrink-0 w-16 flex items-center justify-center">
+    <a href="https://silkcommerce.com" target="_blank" rel="noopener noreferrer" class="hover:opacity-80 transition-opacity">
+      <img
+        src="/assets/logos/silk.jpg"
+        alt="Silk Commerce logo"
+        class="h-12 w-auto max-w-full object-contain"
+      />
+    </a>
+  </div>
+  <div class="flex-1">
+    <h3 class="text-xl font-semibold mb-2">Enterprise Integration Architect | Silk Commerce</h3>
+    <p>Architected end-to-end e-commerce integration solutions that reduced time-to-market for product launches by 40%. Designed event-driven systems that improved reliability and reduced integration maintenance overhead by 60%.</p>
+  </div>
+</div>
 
 ### Healthcare Technology Lead | OST
 Led the technical overhaul of healthcare data systems, implementing HIPAA-compliant integration strategies. Delivered solutions that improved care coordination and reduced administrative overhead by 35%.

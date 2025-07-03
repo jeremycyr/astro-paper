@@ -7,7 +7,9 @@ import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Card from "@/components/Card.astro";
 import Pagination from "@/components/Pagination.astro";
+import Tag from "@/components/Tag.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
+import getUniqueTags from "@/utils/getUniqueTags";
 import { SITE } from "@/config";
 
 export const getStaticPaths = (async ({ paginate }) => {
@@ -16,6 +18,10 @@ export const getStaticPaths = (async ({ paginate }) => {
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
+
+// Get all posts to extract unique tags
+const allPosts = await getCollection("blog");
+const tags = getUniqueTags(allPosts);
 ---
 
 <Layout title={`Articles | ${SITE.title}`}>
@@ -27,6 +33,15 @@ const { page } = Astro.props;
   </Main>
 
   <Pagination {page} />
+
+  <!-- Tags Section -->
+  <section class="mx-auto max-w-app px-4 py-8">
+    <h2 class="text-2xl font-semibold mb-4">Browse by Tags</h2>
+    <p class="text-skin-base mb-6">Explore articles by topic</p>
+    <ul class="flex flex-wrap gap-2">
+      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
+    </ul>
+  </section>
 
   <Footer noMarginTop={page.lastPage > 1} />
 </Layout>
