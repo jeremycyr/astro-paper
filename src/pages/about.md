@@ -18,7 +18,7 @@ title: "About"
   </div>
 </div>
 
-With over 15 years of experience architecting enterprise systems, I specialize in solving complex integration challenges and modernizing legacy infrastructure. I focus on translating business needs into scalable, practical architecture, delivering solutions that are both forward-thinking and immediately valuable.
+With over 15 years of experience architecting and engineering enterprise systems, I specialize in solving complex integration challenges and modernizing legacy infrastructure. I focus on translating business needs into scalable, practical architecture, delivering solutions that are both forward-thinking and immediately valuable.
 
 ## Core Expertise
 

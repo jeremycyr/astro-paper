@@ -31,22 +31,25 @@ const isActive = (path: string) => {
   </a>
   <div
     id="nav-container"
-    class="mx-auto flex max-w-app flex-col items-center justify-between"
+    class="mx-auto flex max-w-app flex-col items-center justify-between sm:flex-row sm:items-center"
   >
     <div
       id="top-nav-wrap"
-      class="relative flex w-full items-baseline justify-center bg-background p-4 sm:items-center sm:py-6"
+      class="relative flex w-full flex-col items-center justify-center bg-background p-4 sm:w-auto sm:items-start sm:justify-start sm:py-6"
     >
       <a
         href="/"
-        class="py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:text-2xl sm:leading-none"
+        class="py-1 text-xl leading-6 font-semibold whitespace-nowrap sm:text-2xl sm:leading-tight"
       >
         {SITE.title}
       </a>
+      <span class="text-sm text-gray-600 dark:text-gray-400 sm:text-base">
+        Enterprise Integration Architect
+      </span>
     </div>
     <nav
       id="nav-menu"
-      class="flex w-full flex-col items-center justify-center sm:flex-row sm:space-x-4 sm:py-2"
+      class="flex w-full flex-col items-center justify-center sm:w-auto sm:flex-row sm:space-x-4 sm:py-2"
     >
         <button
           id="menu-btn"
