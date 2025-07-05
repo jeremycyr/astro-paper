@@ -41,7 +41,7 @@ If you haven't used the task token, it's a callback pattern that works with Step
 
 What does this mean in practice? You can have a complex workflow halt to wait for some work to complete. While it does so, it's not consuming compute, and can theoretically wait as long as **one year** for the worker to do its thing—all while preserving the execution state up to the delegation point.
 
-## That's Great, but How Does That Help Me Rate Limit Requests to My AS/400?
+## That's Great, but How Does That Help Me Rate Limit Requests to My AS/400 or whatever?
 
 The key here is that when you reach an async operation in your Step Function, you drop a message to a queue. Then serving that queue is a single worker function. That worker function can use AWS's built-in provisioned concurrency configuration to limit the maximum number of executions.
 
@@ -74,7 +74,7 @@ Another beauty of this approach: all the components have useful telemetry alread
 
 ### Strategic Simplicity
 
-When first solving a problem in distributed computing, it's easy to attach new solutions to each requirement. There's a saying: every developer has at some point built their own content management system. This is because we as developers like to work through problems to understand them, and building is a good way to do that. But it's important to remember—these are not new problems, and we're not the first to approach them. Standing on the shoulders of giants can save us a lot of heartburn. The more you can use the native primitive tools in the vicinity of their intended purpose, the easier things generally are going to go. So once you've identified it, put it into your book of proven patterns.
+When first solving a problem in distributed computing, it's easy to attach new solutions to each requirement. There's a saying: every developer has at some point built their own content management system. This isn't because we need more CMS's. This is because we as developers like to work through problems to understand them, and building is a good way to do that. But it's important to remember—these are not new problems, and we're not the first to approach them. Standing on the shoulders of giants can save us a lot of heartburn. The more you can use the native primitive tools in the vicinity of their intended purpose, the easier things generally are going to go. So once you've identified it, put it into your book of proven patterns.
 
 Let's look at the strategic simplicity we've used in this problem:
 

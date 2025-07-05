@@ -14,7 +14,8 @@ title: "About"
 
   <div class="flex-1">
     <h1 class="text-4xl font-bold sm:text-5xl mb-2">Jeremy Cyr</h1>
-    <h2 class="text-xl sm:text-2xl text-gray-600 dark:text-gray-300">Enterprise Integration Architect & Strategic Technology Consultant</h2>
+    <h2 class="text-l sm:text-xl text-gray-600 dark:text-gray-300">Staff Integration Architect, MillerKnoll</h2>
+<h2 class="text-l sm:text-xl text-gray-600 dark:text-gray-300">Enterprise Integration & Strategic Technology Consultant</h2>
   </div>
 </div>
 
@@ -22,7 +23,7 @@ With over 15 years of experience architecting and engineering enterprise systems
 
 ## Core Expertise
 
-I work at the intersection of enterprise integration and cloud architecture, designing systems that connect ERP, commerce, and CRM platforms. My experience spans legacy modernization, event-driven patterns, and full-stack development across AWS and Azure.
+I work at the intersection of enterprise integration and cloud architecture, designing systems that connect ERP, commerce, CRM, and other enterprise platforms at scale. My experience spans legacy modernization, event-driven patterns, and full-stack development across AWS, Azure, GCP, and Legacy.
 
 **Technical Focus Areas:**
 - Enterprise Integration (ERP, Commerce, CRM)
