@@ -1,8 +1,8 @@
 ---
 author: Jeremy Cyr
 pubDatetime: 2025-07-02T10:15:00Z
-title: "Simple Rate Limiting with AWS Primitives: Step Functions and SQS for Priority-Based API Throttling"
-slug: simple-rate-limiting-step-functions-sqs-priority-and-task-tokens.md
+title: "Simple Concurrency Limiting with AWS Primitives: Step Functions and SQS for easy Priority-Based API Throttling"
+slug: simple-concurrency-limiting-step-functions-sqs-priority-and-task-tokens.md
 featured: true
 draft: false
 tags:
@@ -14,6 +14,8 @@ tags:
   - priority
 description: "This article shares how we solved the classic enterprise integration problem of connecting fast, modern systems to slow, rate-limited legacy APIs. Instead of building complex custom solutions, we discovered an effective simple pattern using AWS primitives: Step Functions, priority queues, and Lambda concurrency controls that turns rate limiting into a simple queueing problem—eliminating failures while cutting costs."
 ---
+
+![Article Header](/assets/blog1/article-header.png)
 
 ## Matching Modern Event Rates with Performance Limited Legacy Systems
 
@@ -37,11 +39,15 @@ For this particular challenge, we've been using a pattern that combines a few na
 
 ### Enter: The Almighty Task Token
 
+![Task Token](/assets/blog1/task-token.png)
+
 If you haven't used the task token, it's a callback pattern that works with Step Functions. It allows your step function to pause execution while giving the delegated process the responsibility to wake it up when complete. In short: when your delegated process finishes, it sends the task token back to the step function, saying: "Hey, wake up, I'm done, here are some results for you."
 
 What does this mean in practice? You can have a complex workflow halt to wait for some work to complete. While it does so, it's not consuming compute, and can theoretically wait as long as **one year** for the worker to do its thing—all while preserving the execution state up to the delegation point.
 
-## That's Great, but How Does That Help Me Rate Limit Requests to My AS/400 or whatever?
+## That's Great, but How Does That Help Me Limit Request Concurrency to My AS/400 or whatever?
+
+![Provisioned Concurrency](/assets/blog1/concurrency.png)
 
 The key here is that when you reach an async operation in your Step Function, you drop a message to a queue. Then serving that queue is a single worker function. That worker function can use AWS's built-in provisioned concurrency configuration to limit the maximum number of executions.
 
@@ -49,7 +55,10 @@ So you're not handling how many concurrent executions happen, and you're not han
 
 ## Neat—But What If I Have Batch Jobs Clogging Up the Queue, Stopping My Orders?
 
-More primitive concepts to the rescue. Instead of one SQS queue, let's use a few: BATCH, NORMAL, and HIGH.
+This is the priority part of the pattern. Instead of one SQS queue, let's use a few: BATCH, NORMAL, and HIGH.
+
+![Priorities](/assets/blog1/priorities.png)
+
 
 ## But Aren't We Back in the Complex Orchestration Business?
 
@@ -63,6 +72,8 @@ More primitives! SQS queues have a visibility timeout—let's use it. This is th
 >
 > **Worker:** Lambda OUT!
 > `END RequestId: 12345678-1234-1234-1234-123456789012`
+
+![Visibility Timeout](/assets/blog1/vis-timeout.png)
 
 But what about max receive count? Well, at a certain point, if a BATCH or NORMAL message has been trying to get through, and we hit a number shy of our max receive count configured on the queue (before the message goes to DLQ), we'll go ahead and process it. We like to reward tenacity.
 
@@ -90,7 +101,7 @@ If it's not clear by now, the overall theme here is **using what's available and
 
 ## The Results
 
-Since implementing this pattern, we've eliminated rate limit violations while reducing infrastructure costs. The system handles priority gracefully—critical updates process immediately while batch operations wait patiently in line. Most importantly, debugging became straightforward since each Step Function execution has a clear audit trail.
+Since implementing this pattern, we've eliminated rate limit violations while reducing infrastructure costs. The system handles priority gracefully—critical updates process immediately while batch operations wait patiently in line. Most importantly, the system overall is relatively easy to understand and reason about.  Debugging is straightforward since each Step Function execution has a clear audit trail.
 
 ## The Power of AWS Primitives
 

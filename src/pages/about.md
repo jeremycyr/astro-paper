@@ -128,4 +128,4 @@ I typically work with:
 - Internal teams needing fractional architecture leadership or hands-on POC/MVP delivery  
 - Agencies and consultancies looking to subcontract experienced, adaptable technical leadership
 
-**If you need a partner who can blend architecture, delivery, and business insight—I’d love to connect.**
+**If you need a partner who can blend architecture, delivery, and business insight, I'd be happy to connect.**
