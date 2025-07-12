@@ -21,7 +21,7 @@ title: "About"
 
 Jeremy is a Staff Integration Architect at MillerKnoll, where he leads the design of integration platforms supporting global retail and contract brands. With over 15 years of experience in enterprise systems, he specializes in solving complex integration challenges and modernizing legacy infrastructure—translating business needs into scalable, future-ready architecture.
 
-Currently, he drives the implementation of event-driven systems across ERP, commerce, and enterprise platforms, architecting solutions that connect large-scale business ecosystems through robust, cloud-native patterns.
+Currently, he drives the implementation of event-driven systems across ERP, commerce, and enterprise platforms, architecting solutions that connect large-scale business processes through robust, cloud-native patterns.
 
 **Core Areas of Expertise:**
 - Enterprise Integration (ERP, Commerce, CRM)

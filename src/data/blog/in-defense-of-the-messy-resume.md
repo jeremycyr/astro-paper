@@ -20,7 +20,7 @@ These questions aren't unexpected or unfair, but if you're asking them, there ma
 
 ![Goodhart's Law](/assets/blog1/metric.png)
 
-*Source: [XKCD #2899](https://xkcd.com/2899/)*
+<center>*Source: [XKCD #2899](https://xkcd.com/2899/)*</center>
 
 **Goodhart's Law:** When a metric becomes a target, it ceases to be a good metric. Or more casually: "If you make a game, people will play it."
 
