@@ -32,10 +32,13 @@ const socialImageURL = new URL(ogImage, Astro.url);
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": pubDatetime ? "BlogPosting" : "WebPage",
   headline: `${title}`,
+  name: `${title}`,
+  description: `${description}`,
   image: `${socialImageURL}`,
-  datePublished: `${pubDatetime?.toISOString()}`,
+  url: `${canonicalURL}`,
+  ...(pubDatetime && { datePublished: pubDatetime.toISOString() }),
   ...(modDatetime && { dateModified: modDatetime.toISOString() }),
   author: [
     {
@@ -44,6 +47,11 @@ const structuredData = {
       ...(profile && { url: profile }),
     },
   ],
+  publisher: {
+    "@type": "Person",
+    name: `${author}`,
+    ...(profile && { url: profile }),
+  },
 };
 ---
 
@@ -68,10 +76,16 @@ const structuredData = {
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.title} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
+    <meta property="og:image:alt" content={title} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
 
     <!-- Article Published/Modified time -->
     {
@@ -91,12 +105,17 @@ const structuredData = {
       )
     }
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={socialImageURL} />
+    <!-- LinkedIn and professional networks (uses Open Graph) -->
+    <meta property="og:image:type" content="image/jpeg" />
+    
+    <!-- Additional social media platforms -->
+    <meta name="pinterest-rich-pin" content="true" />
+    
+    <!-- WhatsApp and messaging apps -->
+    <meta property="og:image:secure_url" content={socialImageURL} />
+    
+    <!-- Professional networking optimization -->
+    <meta property="article:author" content={profile} />
 
     <!-- Google JSON-LD Structured data -->
     <script
@@ -114,7 +133,16 @@ const structuredData = {
       href={new URL("rss.xml", Astro.site)}
     />
 
-    <meta name="theme-color" content="" />
+    <!-- Additional meta tags for better social sharing -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#1f2937" />
+    <meta name="msapplication-TileColor" content="#1f2937" />
+    
+    <!-- Apple touch icon -->
+    <link rel="apple-touch-icon" href="/favicon.svg" />
 
     {
       // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
