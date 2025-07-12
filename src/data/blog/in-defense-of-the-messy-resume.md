@@ -64,6 +64,6 @@ Curiosity compounds. Each small exploration makes the next one easier.
 
 It's fine to think about titles and levels—they exist for a reason. But a funny thing happens when you let your curiosity lead: the path forward—though organic and meandering—tends to reveal itself. You don't need to obsess over career positioning or navigate some complicated choreography. When you're consistently learning, solving interesting problems, and following what genuinely sparks your interest, the right opportunities tend to show up—and you're already ready for them.
 
-The best engineers I know didn't get there by playing the ladder game. They got there by staying curious, trying odd things, and learning from every messy step along the way—producing results that can't be ignored.
+The best engineers I know didn't get there by playing the ladder game. They got there by staying curious, trying odd things, and learning from every messy step along the way. In the process, they ended up producing results that can't be ignored.
 
 And if you're leading teams, it's worth remembering: those "messy" career histories—full of detours, gaps, and unusual projects—are often where your most adaptable, resourceful people come from. The ones with the broadest books of rhymes are usually the ones who quietly solve the hardest problems. 
