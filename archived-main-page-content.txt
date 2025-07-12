@@ -1,0 +1,53 @@
+ARCHIVED MAIN PAGE CONTENT (index.astro)
+=============================================
+Date Archived: 2025-01-12
+
+This file contains the original content from src/pages/index.astro before it was replaced with content from the about page.
+
+HERO SECTION CONTENT:
+--------------------
+Name: Jeremy Cyr
+Title: Software Architect & Engineering Leader
+
+Description:
+I help companies turn complex technical challenges into scalable, business-aligned solutions. With over 15 years of experience leading enterprise development, I specialize in system integration, platform modernization, large-scale migrations, and greenfield builds that drive real impact.
+
+I bridge strategy and execution—partnering with product and engineering teams to reduce costs, accelerate time-to-market, and unlock new revenue opportunities through thoughtful architecture and pragmatic delivery.
+
+I selectively partner on consulting engagements where there's clear alignment and the potential for significant results.
+
+Navigation Text:
+Explore my technical insights through the articles below, or learn more about my background.
+
+TECHNICAL STRUCTURE:
+-------------------
+- Used Layout component with Header and Footer
+- Featured posts section (if any featured posts exist)
+- Recent posts section showing up to SITE.postPerIndex posts
+- "All Articles" link with arrow icon
+- RSS feed link in header
+- Social links section (if SOCIALS.length > 0)
+- Profile image: /assets/jeremycyr.jpg (32x32 on mobile, 40x40 on desktop)
+
+ASTRO FRONTMATTER IMPORTS:
+-------------------------
+- getCollection from "astro:content"
+- Layout, Header, Footer, Socials, LinkButton, Card, Hr components
+- getSortedPosts utility
+- IconRss, IconArrowRight icons
+- SITE config and SOCIALS constants
+
+JAVASCRIPT:
+----------
+- Script to set sessionStorage backUrl to "/" for navigation
+
+CSS CLASSES USED:
+----------------
+- Flexbox layouts (flex, flex-col, sm:flex-row)
+- Responsive design (sm: breakpoints)
+- Tailwind spacing (pt-8, pb-6, mt-4, etc.)
+- Typography (text-4xl, font-bold, text-lg, leading-relaxed)
+- Rounded images (rounded-full)
+- Shadows (shadow-lg)
+- Hover effects (hover:text-accent)
+- Underline decorations (underline decoration-dashed underline-offset-4)

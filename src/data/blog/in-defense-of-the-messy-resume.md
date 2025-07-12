@@ -1,6 +1,6 @@
 ---
 author: Jeremy Cyr
-pubDatetime: 2025-01-12T12:46:00Z
+pubDatetime: 2025-07-12T12:46:00Z
 title: "In Defense of the Messy Résumé"
 slug: in-defense-of-the-messy-resume
 featured: true
@@ -16,7 +16,7 @@ description: "Why the most adaptable and resourceful engineers often have the me
 
 What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
 
-These questions aren't unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. But if you're asking these questions, there may be a messier, but even more helpful way to think about it.
+These questions aren't unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. And engaging entirely in full on "vibe-careering" probably isn't a good idea either. But if you're asking these questions, there may be a messier but even more helpful way to think about it.
 
 ![Goodhart's Law](/assets/blog1/metric.png)
 
