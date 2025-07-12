@@ -28,7 +28,7 @@ The reality is that "messy" careers, those that don't follow a careful expected 
 
 I was once seated at a conference table during a break at a long requirements gathering session for a project. The group was mostly talented technical people in a variety of domains. Making small talk, someone mentioned that they were a woodworker. One by one, people all around the table revealed that they too were a woodworker, and added some context about their shop, tools, etc. The group laughed awkwardly as each additional person chimed in with their bit of unexpected common thread.
 
-The phenomenon makes sense: in woodworking there are endless challenges and aspects to explore. You get to both build something, and always be learning or trying some new aspect. You get to try, fail, and improve. The feedback loop is quick and very real. In total: it feeds curiosity. And talented engineers more often than not are curious folks.
+The phenomenon makes sense: in woodworking there are endless challenges and aspects to explore. You get to both build something and always be learning or trying some new aspect. You get to try, fail, and improve. The feedback loop is quick and very real. In total: it feeds curiosity. And talented engineers more often than not are curious folks.
 
 This wasn't just a funny coincidence. It was a room full of people whose curiosity doesn't stop at work. Their instinct to explore, build, and solve problems shows up everywhere—including their careers. This curiosity is not just a trait shared by good engineers, it's what makes them good engineers.
 
@@ -43,6 +43,22 @@ That's your "book of rhymes." It's a growing collection of mental patterns—pas
 It's not about memorizing trivia. It's about recognizing the familiar: deadlines that slip, risks that escalate, shortcuts that backfire. The more varied your domains and experiences, the more dense and useful your book becomes.
 
 And this is where curiosity pays off. Every detour, every side project, every strange challenge you take on builds that book. Curiosity isn't just a way to explore new things—it's how you gather the raw material for future insight.
+
+## But What If I'm Not Curious?
+
+Here's the thing: curiosity isn't fixed—it's a muscle that strengthens with use. And you can start purposefully exercising it right where you are.
+
+**Start with adjacent problems.** Look at the edges of what you're already doing. If you're focused on frontend work, what happens in the backend when your requests arrive? If you usually work on features, what does the deployment process look like? Small steps into neighboring territory.
+
+**Ask "why" more often.** When something breaks, don't just fix it—understand why it broke. When you see a pattern in your codebase, dig into why it emerged. The "why" questions are curiosity's entry point.
+
+**Give yourself 15 minutes.** When you encounter something you don't understand, spend 15 minutes exploring it. Not to master it, just to poke around. You're not committing to becoming an expert—you're just satisfying that tiny spark of "I wonder what this is about."
+
+**Talk to people who work in different domains** Ask the sales team what they're hearing from customers. Find out what the support team's most common issues are. Different domains reveal different problems, and different problems expand your pattern recognition.
+
+**Say yes to the weird requests.** The database migration project. The weird integration with that legacy system. The prototype for the marketing team. These aren't distractions—they're opportunities to add new pages to your book of rhymes.
+
+Curiosity compounds. Each small exploration makes the next one easier. 
 
 ## Ladder [Optional]
 
