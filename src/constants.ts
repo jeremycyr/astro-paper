@@ -34,7 +34,7 @@ export const SOCIALS: Social[] = [
 export const SHARE_LINKS: Social[] = [
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/sharing/share-offsite/?url=",
+    href: "https://www.linkedin.com/feed/?shareActive=true&text=Check out this article: ",
     linkTitle: `Share this post on LinkedIn`,
     icon: IconLinkedin,
   },
