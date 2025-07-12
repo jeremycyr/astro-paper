@@ -26,7 +26,7 @@ These questions aren't unexpected or unfair. Advocating for your career progress
 
 It's little wonder—we're drawn to sequences and structure as humans, and we've made ourselves a lot of them. Volunteer—it'll look good on your college applications. Land the right internship, turn it into an offer. Pick the right company. Climb the ladder: Junior > Dev > Senior. Make a Strategic Company Change. Staff > Principal > Manager > Director. Another Move. VP > CTO. You can't have any gaps on your resume, it might look like nobody wanted you!
 
-The reality is that "messy" careers, those that don't follow a careful expected choreography, are often an indicator of something very important: **curiosity**. And having an active and developed curiosity is a massive distinct advantage, especially in any field that focuses on solving problems, which is, well, most of them.
+The reality is that "messy" careers, those that don't follow a careful expected choreography, are often an indicator of something very important: **curiosity**. And having an active and developed curiosity is a massive distinct advantage, especially in any field that aims to solve problems, which is, well, most of them.
 
 ## Wait, we're all woodworkers?!
 
