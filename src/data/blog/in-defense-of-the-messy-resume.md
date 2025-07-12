@@ -14,7 +14,9 @@ tags:
 description: "Why the most adaptable and resourceful engineers often have the messiest career paths—and why curiosity, not careful choreography, builds the judgment that matters most."
 ---
 
-It's a question that I hear a lot: What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
+It's a question that I hear often: What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
+
+These questions arent' unexpected, but if you're asking them, there may be a better way to think about it.
 
 ![Goodhart's Law](/assets/blog1/metric.png)
 
@@ -46,19 +48,19 @@ And this is where curiosity pays off. Every detour, every side project, every st
 
 ## But What If I'm Not Curious?
 
-Here's the thing: curiosity isn't fixed—it's a muscle that strengthens with use. And you can start purposefully exercising it right where you are.
+Curiosity isn't a fixed thing you either have or don't—it's a muscle that strengthens with use. And you can start purposefully exercising it.
 
-**Start with adjacent problems.** Look at the edges of what you're already doing. If you're focused on frontend work, what happens in the backend when your requests arrive? If you usually work on features, what does the deployment process look like? Small steps into neighboring territory.
+**Start with adjacent problems.** Look at the edges of what you're already doing. If you're focused on frontend work, what happens in the backend when your requests arrive? How might Infosec think about this problem? If you usually work on features, what does the deployment process look like? Small steps into neighboring territory.
 
-**Ask "why" more often.** When something breaks, don't just fix it—understand why it broke. When you see a pattern in your codebase, dig into why it emerged. The "why" questions are curiosity's entry point.
+**Ask "why" more often.** When something breaks, don't just stop at the symptom, understand the root of the behavior. When you see a pattern in your codebase, dig into why it emerged. The "why" questions are curiosity's entry point.
 
 **Give yourself 15 minutes.** When you encounter something you don't understand, spend 15 minutes exploring it. Not to master it, just to poke around. You're not committing to becoming an expert—you're just satisfying that tiny spark of "I wonder what this is about."
 
-**Talk to people who work in different domains** Ask the sales team what they're hearing from customers. Find out what the support team's most common issues are. Different domains reveal different problems, and different problems expand your pattern recognition.
+**Talk to people who work in different domains** Ask the sales team what they're hearing from customers. Find out what the support team's most common issues are. Ask the networking team how they handle something interesting. Different domains reveal different problems, and different problems expand your pattern recognition.
 
 **Say yes to the weird requests.** The database migration project. The weird integration with that legacy system. The prototype for the marketing team. These aren't distractions—they're opportunities to add new pages to your book of rhymes.
 
-Curiosity compounds. Each small exploration makes the next one easier. 
+Each small exploration makes the next one easier. 
 
 ## Ladder [Optional]
 
