@@ -60,7 +60,7 @@ Curiosity isn't a fixed thing you either have or don't—it's a muscle that stre
 
 **Talk to people who work in different domains** Ask the sales team what they're hearing from customers. Find out what the support team's most common issues are. Ask the networking team how they handle something interesting. Different domains reveal different problems, and different problems expand your pattern recognition.
 
-**Say yes to the weird requests.** That Lotus Notes migration project. The weird integration with that legacy system. The prototype for the marketing team. These aren't distractions—they're opportunities to add new pages to your book of rhymes.
+**Say yes to the weird requests.** That Lotus Notes migration project. The weird integration with that legacy system. The prototype for the marketing team. These aren't distractions—they're opportunities to add new high-value pages to your book of rhymes.
 
 Each small exploration makes the next one easier. 
 
