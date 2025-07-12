@@ -14,19 +14,21 @@ tags:
 description: "Why the most adaptable and resourceful engineers often have the messiest career paths—and why curiosity, not careful choreography, builds the judgment that matters most."
 ---
 
-It's a question that I hear often: What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
+What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
 
-These questions aren't unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. But if you're asking these questions, there may be a better, simpler way to think about it.
+These questions aren't unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. But if you're asking these questions, there may be a messier, but even more helpful way to think about it.
 
 ![Goodhart's Law](/assets/blog1/metric.png)
 
-<center>*Source: [XKCD #2899](https://xkcd.com/2899/)*</center>
+<div style="text-align: center;">
+<em>Source: <a href="https://xkcd.com/2899/">XKCD #2899</a></em>
+</div>
 
 **Goodhart's Law:** When a metric becomes a target, it ceases to be a good metric. Or more casually: "If you make a game, people will play it."
 
 It's little wonder—we're drawn to sequences and structure as humans, and we've made ourselves a lot of them. Volunteer—it'll look good on your college applications. Land the right internship, turn it into an offer. Pick the right company. Climb the ladder: Junior > Dev > Senior. Make a Strategic Company Change. Staff > Principal > Manager > Director. Another Move. VP > CTO. You can't have any gaps on your resume, it might look like nobody wanted you!
 
-The reality is that "messy" careers, those that don't follow a careful expected choreography, are often an indicator of something very important: **curiosity**. And having an active and developed curiosity is a massive distinct advantage, especially in any field that aims to solve problems, which is, well, most of them.
+The reality is that "messy" careers, those that don't follow a careful expected choreography, are often an indicator of something very important: **curiosity**. And having an active and developed curiosity is a massive distinct advantage, especially in any field that aims to solve problems, which is, well, most of them. 
 
 ## Wait, we're all woodworkers?!
 
@@ -48,7 +50,7 @@ It's not trivia. It's about recognizing the familiar: deadlines that slip, risks
 
 And this is where curiosity pays off. Every detour, every side project, every strange challenge you take on builds that book. Curiosity isn't just a way to explore new things—it's how you gather the raw material for future insight.
 
-## But What If I'm Not Curious?
+## But I'm Just Not That Curious
 
 Curiosity isn't a fixed thing you either have or don't—it's a muscle that strengthens with use. And you can purposefully exercise it.
 
