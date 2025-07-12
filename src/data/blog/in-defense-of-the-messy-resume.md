@@ -44,7 +44,7 @@ The more problems you solve, the more familiar they begin to feel. Different ind
 
 That's your "book of rhymes." It's a collection of mental patterns—past successes, close calls, and hard-won lessons that guide your judgment.
 
-It's not about memorizing trivia. It's about recognizing the familiar: deadlines that slip, risks that escalate, shortcuts that backfire. The more varied your domains and experiences, the more dense and useful your book becomes. A cross-domain rhyme is the best kind.
+It's not trivia. It's about recognizing the familiar: deadlines that slip, risks that escalate, shortcuts that backfire. The more varied your domains and experiences, the more dense and useful your book becomes. A cross-domain rhyme is the best kind.
 
 And this is where curiosity pays off. Every detour, every side project, every strange challenge you take on builds that book. Curiosity isn't just a way to explore new things—it's how you gather the raw material for future insight.
 
