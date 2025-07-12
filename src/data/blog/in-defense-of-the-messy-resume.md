@@ -70,4 +70,4 @@ It's fine to think about titles and levels—they exist for a reason. But a funn
 
 The best engineers I know didn't get there by playing the ladder game. They got there by staying curious, trying odd things, and learning from every messy step along the way. In the process, they ended up producing results that couldn't be ignored.
 
-And if you're leading teams or working with talent, it's worth remembering: those "messy" career histories—full of detours, gaps, and unusual projects—are often where your most adaptable, resourceful people come from. The ones with the broadest books of rhymes are usually the ones who quietly solve the hardest problems. 
+And if you're leading teams or working with talent, it's worth remembering: those "messy" career histories—full of detours, gaps, and unusual projects—are often where your most adaptable, resourceful people come from. The ones with the broadest books of rhyme are usually the ones who quietly solve the hardest problems. 
