@@ -62,7 +62,7 @@ Curiosity compounds. Each small exploration makes the next one easier.
 
 ## Ladder [Optional]
 
-It's fine to think about titles and levels—they exist for a reason. But the real "next level" isn't something you reach by a carefully choreographed ascension. It comes from following your curiosity, taking on unexpected challenges, and slowly building up your book of rhymes. That's where the real leverage lies—whether or not it shows up neatly on your résumé.
+It's fine to think about titles and levels—they exist for a reason. But a funny thing happens when you let your curiosity lead: the path forward—though organic and meandering—tends to reveal itself. You don't need to obsess over career positioning or navigate some complicated choreography. When you're consistently learning, solving interesting problems, and following what genuinely sparks your interest, the right opportunities tend to show up—and you're already ready for them.
 
 The best engineers I know didn't get there by playing the ladder game. They got there by staying curious, trying odd things, and learning from every messy step along the way—producing results that can't be ignored.
 
