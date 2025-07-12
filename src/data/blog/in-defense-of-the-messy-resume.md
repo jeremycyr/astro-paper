@@ -16,7 +16,7 @@ description: "Why the most adaptable and resourceful engineers often have the me
 
 It's a question that I hear often: What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
 
-These questions aren't unexpected or unfair, but if you're asking them, there may be a better, simpler way to think about it.
+These questions aren't unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. But if you're asking these questions, there may be a better, simpler way to think about it.
 
 ![Goodhart's Law](/assets/blog1/metric.png)
 
