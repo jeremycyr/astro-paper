@@ -26,7 +26,7 @@ These questions aren't unexpected or unfair, but if you're asking them, there ma
 
 It's little wonder—we're drawn to sequences and structure as humans, and we've made ourselves a lot of them. Volunteer—it'll look good on your college applications. Land the right internship, turn it into an offer. Pick the right company. Climb the ladder: Junior > Dev > Senior. Make a Strategic Company Change. Staff > Principal > Manager > Director. Another Move. VP > CTO. You can't have any gaps on your resume, it might look like nobody wanted you!
 
-The reality is that "messy" careers, those that don't follow a careful expected choreography, are often an indicator of something very important: curiosity. And having an active and developed curiosity is a massive distinct advantage, especially in any field that focuses on solving problems, which is well, most of them.
+The reality is that "messy" careers, those that don't follow a careful expected choreography, are often an indicator of something very important: **curiosity**. And having an active and developed curiosity is a massive distinct advantage, especially in any field that focuses on solving problems, which is, well, most of them.
 
 ## Wait, we're all woodworkers?!
 
@@ -42,9 +42,9 @@ There's a saying: History doesn't repeat itself, but it rhymes. Experience works
 
 The more problems you solve, the more familiar they begin to feel. Different industries, different projects—but underneath, the same core themes appear again and again.
 
-That's your "book of rhymes." It's a growing collection of mental patterns—past successes, close calls, and hard-won lessons that guide your judgment.
+That's your "book of rhymes." It's a collection of mental patterns—past successes, close calls, and hard-won lessons that guide your judgment.
 
-It's not about memorizing trivia. It's about recognizing the familiar: deadlines that slip, risks that escalate, shortcuts that backfire. The more varied your domains and experiences, the more dense and useful your book becomes.
+It's not about memorizing trivia. It's about recognizing the familiar: deadlines that slip, risks that escalate, shortcuts that backfire. The more varied your domains and experiences, the more dense and useful your book becomes. A cross-domain rhyme is the best kind.
 
 And this is where curiosity pays off. Every detour, every side project, every strange challenge you take on builds that book. Curiosity isn't just a way to explore new things—it's how you gather the raw material for future insight.
 
