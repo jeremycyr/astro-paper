@@ -16,7 +16,7 @@ description: "Why the most adaptable and resourceful engineers often have the me
 
 What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
 
-These questions aren't unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. And engaging entirely in full on "vibe-careering" probably isn't a good idea either. But if you're asking these questions, there may be a messier but even more helpful way to think about it.
+These questions aren’t unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. The challenge is that if one conceptualizes their career solely like leveling up in a video game, we miss the most important aspects of development that let us bring value— namely: skills and experience that develop in the messy, non-linear and unpredictable edges of life.
 
 ![Goodhart's Law](/assets/blog1/metric.png)
 
