@@ -33,7 +33,7 @@ Modern AI development tooling brings this risk pattern front and center in softw
 
 ## The Irresistable Call of AI Tooling
 
-There's no doubt that the AI tools available today are doing things we couldn't have imagined a few years ago.  Scaffolding projects, answering questions, developing against complex patterns, writing tests, debugging.  In the hands of someone experienced these tools can increase the velocity of development many times over.  But as we build up the next generation of experienced engineers with access to these tools, how are they learning those ever important fundamentals if we've delegated away the execution?
+There's no doubt that the AI tools available today are doing things we couldn't have imagined a few years ago.  Scaffolding projects, answering questions, developing against complex patterns, writing tests, debugging.  In the hands of someone experienced these tools can increase the velocity of development many times over.  But as we build up the next generation of experienced engineers with access to these tools, how are they to learn those ever important fundamentals if we've delegated away the execution?
 
 The pipeline that once slowly shaped problem-solvers through repetition and refinement now risks producing operators of tools—not architects of systems.
 
