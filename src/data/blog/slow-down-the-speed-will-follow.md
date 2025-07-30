@@ -75,7 +75,7 @@ As leaders, we need to be the piano teachers. Encourage fundamentals first. Work
 
 "Slow down! The speed will come," my piano teacher would often say when I rushed ahead of what my skill—or my practice—could support.
 
-Like music, software has structure. And just like a pianist can't fake their way through a complex passage without foundational technique, a developer can't reason well about systems they never learned to construct. If we skip the foundational skills, we can't expect them to explain why something works, how to fix it when it breaks, or when not to build it at all.
+Like music, software has structure. And just like a pianist can't fake their way through a complex passage without foundational technique, a developer can't reason well about systems they never learned to construct. If we skip the foundational skill, we can't expect them to explain why something works, how to fix it when it breaks, or when not to build it at all.
 
 As teams, we can’t just hand over the sheet music and hope for the best. We have to create an environment where foundational learning is expected, encouraged, and supported with slow and intentional friction. That means guiding appropriate tool use, helping with evaluation and pushback, and giving space and time for struggle.
 
