@@ -27,7 +27,7 @@ So I did that for a while; I'd listen to a song, figure it out, look up a chord 
 
 I was missing an entire massive foundation of skills and skipping right to the output.  The muscle memory, the posture and theory.  Scales and arpeggios, rhythms and dynamics.  Modes, transitions, standard phrases.   I didn't have any of it to use.  
 
-Piano teachers will roll their eyes when you try to skip the basics—and it's with good reason.  The basics work, and they have for a long time, refined carefully and intentionally over literal centuries.  You can't short circuit that with some quick youtube and memorization. If you go rogue, you'll hit a wall that will often require unlearning bad habits before making forward progress.  It's little wonder piano teachers so often hold a firm boundary here.
+Piano teachers will roll their eyes when you try to skip the basics—and it's with good reason.  The basics work, and they have for a long time, refined carefully and intentionally over literal centuries.  You can't short circuit that with some quick youtube and memorization. If you go rogue, you'll hit a wall that will often require unlearning bad habits before making forward progress. 
 
 Modern AI development tooling brings this risk pattern front and center in software development. The tools that we’re rushing to get into the hands of developers make it trivially easy to skip the fundamentals and go straight to the output. But like my playing a song based on some Synthesia video I found on Youtube, there are costs to jumping ahead without the base layer of understanding firmly locked down.
 
