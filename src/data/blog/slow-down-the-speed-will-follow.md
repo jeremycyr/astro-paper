@@ -23,7 +23,7 @@ canonicalURL: ""
 
 I always wanted to play the piano, but lessons seemed so boring—play the same simple dull piece over and over, I'd much rather play something good, and figure it out on my own!  If I can play something more complicated, why would I want to waste time with the simple stuff? 
 
-So I did that for a while; I'd listen to a song, figure it out, look up a chord tab, play it over and over until I got it.  I sounded reasonably good to someone who didn't know better.  But when I tried to learn something more complicated, push myself to the next level, I hit an immediate and immovable wall.  No matter how hard I practiced, I couldn't pick it up.  My brain knew what I wanted to do, but my hands wouldn't cooperate.   
+So I did that for a while; I'd listen to a song, figure it out, play it over and over until I got it.  I sounded reasonably good to someone who didn't know better.  But when I tried to learn something more complicated, push myself to the next level, I hit an immediate and immovable wall.  No matter how hard I practiced, I couldn't pick it up.  My brain knew what I wanted to do, but my hands wouldn't cooperate.   
 
 I was missing an entire massive foundation of skills and skipping right to the output.  The muscle memory, the posture and theory.  Scales and arpeggios, rhythms and dynamics.  Modes, transitions, standard phrases.   I didn't have any of it to use.  
 

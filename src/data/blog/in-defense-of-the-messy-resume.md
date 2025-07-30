@@ -2,6 +2,7 @@
 author: Jeremy Cyr
 pubDatetime: 2025-07-12T12:46:00Z
 title: "In Defense of the Messy Résumé"
+subtitle: "Why the best engineers often take the weirdest paths"
 slug: in-defense-of-the-messy-resume
 featured: true
 draft: false
