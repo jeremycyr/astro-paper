@@ -21,17 +21,15 @@ canonicalURL: ""
 ![Piano keys in black and white](/assets/6066898898_d2cceb23c4_k.jpg)
 *Photo by [jronaldlee.com](https://jronaldlee.com)*
 
-I always wanted to play the piano, though I never liked the idea of lessons. Why spend months repeating ultra-simple pieces when I could just sit down and, by ear, learn something fun and impressive?
+I always wanted to play the piano, but lessons seemed so boring—play the same simple dull piece over and over, I'd much rather play something good, and figure it out on my own!  If I can play something more complicated, why would I want to waste time with the simple stuff? It felt like I was moving backwards.
 
-For a while, that’s exactly what I did—I'd listen to a piece, work it out note by note, and play it through until it sounded right. It worked well enough. I could play things that sounded advanced. But I wasn’t actually getting better.
+So I did that for a while; I'd listen to a song, figure it out, look up a chord tab, play it over and over until I got it.  I sounded reasonably good to someone who didn't know better.  But when I tried to learn something more complicated, push myself to the next level, I hit an immediate and immovable wall.  No matter how hard I practiced, I couldn't pick it up.  My brain knew what I wanted to do, but my hands wouldn't cooperate.   
 
-Every time I tried to learn something more complex, I hit a wall. No matter how many times I practiced, I couldn’t get it right. My hands wouldn’t cooperate.
+I was missing an entire massive foundation of skills and skipping right to the output.  The muscle memory, the posture and theory.  Scales and arpeggios, rhythms and dynamics.  Modes, transitions, standard phrases.   I didn't have any of it to use.  
 
-I was missing the foundational skills: the muscle memory, the posture, the theory. Scales and arpeggios. Rhythms and dynamics. Transitions and phrasing. All the things piano lessons were designed to teach—refined over centuries with purpose and structure.
+Piano teachers will roll their eyes when you try to skip the basics—and it's with good reason.  The basics work, and they have for a long time, refined carefully and intentionally over literal centuries.  You can't short circuit that with some quick youtube and memorization. If you go rogue, you'll hit a wall that will often require unlearning bad habits before making forward progress.  It's little wonder piano teachers so often hold a firm boundary here.
 
-Piano teachers will roll their eyes when you try to skip the basics—and with good reason. The basics work. Go rogue, and you'll hit a wall that often requires unlearning bad habits before making real forward progress.
-
-Modern AI development tooling brings this risk front and center. The tools that we're rushing to get into the hands of our developers make it trivially easy to skip the fundamentals and go straight to the output.  But there are costs to jumping ahead without the base layer of understanding firmly locked down.   
+Modern AI development tooling brings this risk pattern front and center in software development. The tools that we’re rushing to get into the hands of developers make it trivially easy to skip the fundamentals and go straight to the output. But like my playing a song based on some Synthesia video I found on Youtube, there are costs to jumping ahead without the base layer of understanding firmly locked down.
 
 ## The Irresistable Call of AI Tooling
 
