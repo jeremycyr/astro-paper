@@ -27,7 +27,7 @@ I was missing the foundational skills: the muscle memory, the posture, the theor
 
 Piano teachers will roll their eyes when you try to skip the basics—and with good reason. The basics work. Go rogue, and you'll hit a wall that often requires unlearning bad habits before making real forward progress.
 
-Modern AI development tooling brings this risk front and center. The tools that we're rushing to get into the hands of our developers make it trivially easy in many circumstances to skip the fundamentals and go straight to the output.  But there are costs to jumping ahead without the base layer of understanding firmly locked down.   
+Modern AI development tooling brings this risk front and center. The tools that we're rushing to get into the hands of our developers make it trivially easy to skip the fundamentals and go straight to the output.  But there are costs to jumping ahead without the base layer of understanding firmly locked down.   
 
 ## The Irresistable Call of AI Tooling
 
