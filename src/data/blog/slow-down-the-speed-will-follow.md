@@ -60,7 +60,7 @@ While a seasoned engineer may have the background and knowledge base to avoid th
 
 Learning these fundamental principals becomes much more difficult the higher the level of abstraction. We need to both setup a development structure that encourages the building of these base layer skills, and identify and correct the risky practices before they become embedded or fail.
 
-Twinkle-twinkle before _La Campanella_. Before handing over high-powered tools, make sure early-career developers have built things the hard way. Help them wrestle with error messages, trace bugs by hand, write code from scratch.  Intentionally limit access to advanced tooling, while explaining the reasoning behind the rule.  Then, phase in AI deliberately:
+Twinkle-twinkle before _La Campanella_. Before handing over high-powered tools, make sure early-career developers have built things the hard way. Help them wrestle with error messages, trace bugs by hand, write code from scratch. If you can, intentionally limit access to advanced tooling, while explaining the reasoning behind the choice.  Then, phase in AI deliberately:
 
 * Start with basic autocomplete and Q&A tools.
 * Advance to cut-and-paste snippets that require understanding and adaptation.
@@ -69,9 +69,7 @@ Twinkle-twinkle before _La Campanella_. Before handing over high-powered tools, 
 
 All along, require justification. Ask: Why this approach? What trade-offs did you consider? What breaks if your assumptions are wrong?  The feedback loop is especially important, as much of this tooling can create output that may successfully produce the desired outcome, with significant hidden costs both to the codebase and the developer's base understanding.  
 
-Normalize struggle. Model curiosity. Let seniors narrate their thinking—especially the paths they didn’t take.
-
-As leaders, we need to be the piano teachers. Push for structure. Demand fundamentals. And above all, create an environment with a progression of intentional learning through friction. 
+As leaders, we need to be the piano teachers. Push for structure. Demand fundamentals. And above all, create an environment with a progression of intentional learning through level-appropriate friction. 
 
 ## Foundations First, Fluency Follows
 
@@ -79,6 +77,6 @@ As leaders, we need to be the piano teachers. Push for structure. Demand fundame
 
 Like music, software has structure. And just like a pianist can't fake their way through a complex passage without foundational technique, a developer can't reason well about systems they never learned to construct. They can't explain why something works, how to fix it when it breaks, or when not to build it at all.
 
-As teams, we can’t just hand over the sheet music and hope for the best. We have to create an environment where foundational learning is expected—and supported. That means giving space for struggle, not always rushing to unblock. It means asking questions that require judgment, not just output. It means designing code reviews that teach, not just approve.
+As teams, we can’t just hand over the sheet music and hope for the best. We have to create an environment where foundational learning is expected—and supported with intentional friction. That means guiding or limiting tool use, giving space for struggle, while guiding and correcting if the tooling is used irresponsibly. It means asking questions that require judgment, not just output. 
 
 If we want to grow engineers who can design, adapt, and lead—not just copy, paste, and prompt—we need to give them room to learn the scales. To make mistakes. To understand the why beneath the what.
