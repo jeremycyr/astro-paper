@@ -21,13 +21,13 @@ description: "How we solved the classic enterprise integration problem of connec
 
 It's a common enterprise scenario: your modern system creates event bursts that overwhelm legacy APIs. If you're lucky, you'll get 429 responses, throwing your sending process into an expensive game of "do some math, take a break, and try again later." More likely, your target system falls over completely—500 errors or `ETIMEDOUT` failures where you never know if the work completed. Did the API eventually finish? ¯\_(ツ)_/¯
 
-Traditional solutions involve building custom queue polling with concurrency tracking, handling retry logic, and managing always-on compute costs. Some accept 429s and retry, but that compute isn't free—especially when Step Functions charge per state transition. Accumulate enough retries, and you've just DDoS'd your own system.
+Some systems will give you an async queue in the target system that you can use.  Usually however, you're left to develop a mechanism to control the flow and handle backoff and retry. Queue patterns are useful of course, but you still need some flow control mechanism, which usually ends up being a polling worker that is burning a bunch of always-on compute. How do we orchestrate multiple calls? How are we preserving state between them? How are we handling failure modes? 
 
 ## The Solution: AWS Primitives Working Together
 
 As with most things AWS, the more you can handle with **AWS primitives**, the simpler and better off your build will be. If you find yourself building distributed locks, take a sip of coffee and ask if you're missing a native solution.
 
-We've been using a pattern that combines Step Functions, SQS, and Lambda concurrency controls to solve for rate limiting, priority, and async state preservation—all in a pretty simple way.
+We've been using a pattern that combines Step Functions, SQS, and Lambda concurrency controls to solve for rate limiting, priority, and async state preservation—all in a relatively simple and elegant way.
 
 ### The Core Pattern
 
@@ -39,12 +39,12 @@ Task tokens let Step Functions pause execution while delegating work. When your 
 ![Provisioned Concurrency](/assets/blog1/concurrency.png)
 
 **Step 2: Queue + Lambda Concurrency = Rate Limiting**  
-When your Step Function reaches an async operation, it drops a message to a queue. A single worker function serves that queue with AWS's built-in provisioned concurrency limiting maximum executions. You're not handling concurrency counting, process recycling, or distributed locks—AWS solved those problems. You're just using them smartly.
+When your Step Function reaches an async operation, it drops a message to a queue. A single worker function serves that queue with AWS's built-in provisioned concurrency limiting maximum executions. You're not handling concurrency counting, process recycling, or distributed locks—AWS solved those problems. You're just using the existing mechanisms together smartly.
 
 ![Priorities](/assets/blog1/priorities.png)
 
 **Step 3: Priority Queues**  
-Instead of one SQS queue, use multiple: BATCH, NORMAL, and HIGH. This is where things get interesting.
+Instead of one SQS queue, we use multiple: BATCH, NORMAL, and HIGH. This is where things get interesting.
 
 ## Smart Priority Orchestration
 
@@ -78,6 +78,4 @@ All components have built-in telemetry: Queue Depth, Maximum Queue Age by priori
 
 ## Broader Applications
 
-This pattern works beyond ERP integration—anywhere you need coordinated access to rate-limited resources. The combination of priority queues, concurrency controls, and task tokens creates sophisticated distributed system behavior that's both powerful and maintainable.
-
-Perfect for bridging modern cloud architectures with enterprise systems that still think concurrency is a dirty word.
+This pattern works beyond ERP integration—anywhere you need coordinated access to rate-limited resources. The combination of priority queues, concurrency controls, and task tokens creates an elegant distributed system behavior that's both powerful and maintainable.

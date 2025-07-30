@@ -16,7 +16,7 @@ description: "Why the most adaptable and resourceful engineers often have the me
 
 What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
 
-These questions aren’t unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. The challenge is that if one conceptualizes their career solely like leveling up in a video game, we miss the most important aspects of development that let us bring value— namely: skills and experience that develop in the messy, non-linear and unpredictable edges of life.
+These questions aren’t unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. The challenge is that if one views their career as a simple, logical, stepwise progression, we may miss the most important aspects of development that let us bring value— namely: the skills and experience that develop in the messy, non-linear and unpredictable edges of life.
 
 ![Goodhart's Law](/assets/blog1/metric.png)
 
@@ -66,9 +66,9 @@ Curiosity isn't a fixed thing you either have or don't—it's a muscle that stre
 
 Each small exploration makes the next one easier. 
 
-## Ladder [Optional]
+## The Ladder is Optional
 
-It's fine to think about titles and levels—they exist for a reason. But a funny thing happens when you let your curiosity lead: the path forward—though organic and meandering—tends to reveal itself. You don't need to obsess over career positioning or navigate some complicated choreography. When you're consistently learning, solving interesting problems, and following what genuinely sparks your interest, the right opportunities tend to show up—and you're already ready for them.
+It's fine to think about titles and levels—they exist for a reason. But a funny thing happens when you let your curiosity lead: the path forward—though organic and meandering—tends to reveal itself. You don't need to obsess over career positioning or navigate some complicated choreography. When you're consistently learning, solving interesting problems, and following what genuinely sparks your interest, the right opportunities tend to show up.
 
 The best engineers I know didn't get there by playing the ladder game. They got there by staying curious, trying odd things, and learning from every messy step along the way. In the process, they ended up producing results that couldn't be ignored.
 

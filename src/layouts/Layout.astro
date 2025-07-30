@@ -30,15 +30,15 @@ const {
 
 const socialImageURL = new URL(ogImage, Astro.url);
 
-const structuredData = {
+const structuredData = pubDatetime ? {
   "@context": "https://schema.org",
-  "@type": pubDatetime ? "BlogPosting" : "WebPage",
+  "@type": "BlogPosting",
   headline: `${title}`,
   name: `${title}`,
   description: `${description}`,
   image: `${socialImageURL}`,
   url: `${canonicalURL}`,
-  ...(pubDatetime && { datePublished: pubDatetime.toISOString() }),
+  datePublished: pubDatetime.toISOString(),
   ...(modDatetime && { dateModified: modDatetime.toISOString() }),
   author: [
     {
@@ -52,6 +52,37 @@ const structuredData = {
     name: `${author}`,
     ...(profile && { url: profile }),
   },
+} : {
+  "@context": "https://schema.org",
+  "@type": ["WebPage", "ProfilePage"],
+  name: `${title}`,
+  description: `${description}`,
+  image: `${socialImageURL}`,
+  url: `${canonicalURL}`,
+  mainEntity: {
+    "@type": "Person",
+    name: `${author}`,
+    jobTitle: "Staff Integration Architect",
+    worksFor: {
+      "@type": "Organization",
+      name: "MillerKnoll"
+    },
+    knowsAbout: [
+      "Enterprise Integration",
+      "Cloud Architecture",
+      "System Modernization",
+      "Event-Driven Systems",
+      "API Design",
+      "DevOps"
+    ],
+    ...(profile && { sameAs: [profile] }),
+    ...(profile && { url: profile }),
+  },
+  author: {
+    "@type": "Person",
+    name: `${author}`,
+    ...(profile && { url: profile }),
+  }
 };
 ---
 
