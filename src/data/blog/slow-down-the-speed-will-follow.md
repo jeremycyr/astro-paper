@@ -1,7 +1,7 @@
 ---
 
 title: "Slow Down! The Speed Will Follow"
-subtitle: "Like piano, effective AI development starts with fundamentals."
+subtitle: "Like piano, effective AI development requires the fundamentals."
 description: "The AI tooling that we're rushing to get into the hands of developers risks bypassing the development of fundamentals that are more important than ever."
 pubDatetime: 2025-07-29T12:00:00.000Z
 modDatetime: null
@@ -17,6 +17,10 @@ tags:
 canonicalURL: ""
 
 ---
+
+![Piano keys in black and white](/assets/6066898898_d2cceb23c4_k.jpg)
+*Photo by [jronaldlee.com](https://jronaldlee.com)*
+
 I always wanted to play the piano, though I never liked the idea of lessons. Why spend months repeating ultra-simple pieces when I could just sit down and, by ear, learn something fun and impressive?
 
 For a while, that’s exactly what I did—I'd listen to a piece, work it out note by note, and play it through until it sounded right. It worked well enough. I could play things that sounded advanced. But I wasn’t actually getting better.
