@@ -60,23 +60,23 @@ While a seasoned engineer may have the background and knowledge base to avoid th
 
 Learning these fundamental principals becomes much more difficult the higher the level of abstraction. We need to both setup a development structure that encourages the building of these base layer skills, and identify and correct the risky practices before they become embedded or fail.
 
-Twinkle-twinkle before _La Campanella_. Before pushing toward the high-powered tools, encourage early-career developers to build things the hard way. Create an environment where slow intentionality is re-enforced at the early career levels. Help them wrestle with error messages, trace bugs by hand, write code from scratch. Then, phase in AI deliberately while educating about the risks and rewards:
+Twinkle-twinkle before _La Campanella_. Before pushing toward the high-powered tools, encourage early-career developers to build things the hard way. Create an environment where slow intentionality is re-enforced at the early career levels. Help them wrestle with error messages, trace bugs by hand, write code from scratch. Drill the scales and arpeggios.  Then, phase in AI deliberately while they progress:
 
 * Start with basic autocomplete and Q&A tools.
 * Advance to cut-and-paste snippets that require understanding and adaptation.
 * Move to integrated assistants that offer suggestions—but still require human steering.
 * Graduate to agentic systems only once foundational judgment is already in place.
 
-All along, have conversations about justification. Ask: Why this approach? What trade-offs did you consider? What breaks if your assumptions are wrong?  The feedback loop is especially important, as much of this tooling can create output that may successfully produce the desired outcome superficially, with significant hidden costs both to the codebase and the developer's level of understanding.  
+All along, we should be having conversations about justification. Ask: Why this approach? What trade-offs did you consider? What breaks if your assumptions are wrong?  The feedback loop is especially important, as much of this tooling can create output that may successfully produce the desired outcome superficially, with significant hidden costs both to the codebase and the developer's level of understanding. 
 
-As leaders, we need to be the piano teachers. Push for structure. Encourage fundamentals. And above all, create an environment with a progression of intentional learning with level-appropriate friction and speed. 
+As leaders, we need to be the piano teachers. Encourage fundamentals first. Work slow. Give the structure in which to improve these skills without skipping to the output by creating an environment with a progression of intentional learning—supported by level-appropriate friction and speed. 
 
 ## Foundations First, Fluency Follows
 
 "Slow down! The speed will come," my piano teacher would often say when I rushed ahead of what my skill—or my practice—could support.
 
-Like music, software has structure. And just like a pianist can't fake their way through a complex passage without foundational technique, a developer can't reason well about systems they never learned to construct. They can't explain why something works, how to fix it when it breaks, or when not to build it at all.
+Like music, software has structure. And just like a pianist can't fake their way through a complex passage without foundational technique, a developer can't reason well about systems they never learned to construct. If we skip the foundational skills, we can't expect them to explain why something works, how to fix it when it breaks, or when not to build it at all.
 
-As teams, we can’t just hand over the sheet music and hope for the best. We have to create an environment where foundational learning is expected and encouraged—and supported with slow and intentional friction. That means guiding appropriate tool use, giving space for struggle, while guiding and course-correcting.
+As teams, we can’t just hand over the sheet music and hope for the best. We have to create an environment where foundational learning is expected, encouraged, and supported with slow and intentional friction. That means guiding appropriate tool use, helping with evaluation and pushback, and giving space and time for struggle.
 
-If we want to grow engineers who can design, adapt, and lead—not just copy, paste, and prompt—we need to give them room to learn the scales. To make mistakes. To understand the why beneath the what.
+If we want to grow engineers who can design, adapt, and lead—not just copy, paste, and prompt—we need to give them room to learn the scales. To make mistakes. To build the muscle memory of why beneath the what.
