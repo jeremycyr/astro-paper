@@ -24,6 +24,7 @@ const { post, posts } = Astro.props;
 
 const {
   title,
+  subtitle,
   author,
   description,
   ogImage: initOgImage,
@@ -99,6 +100,11 @@ const nextPost =
     >
       {title}
     </h1>
+    {subtitle && (
+      <h2 class="mt-2 text-lg font-medium text-foreground/80 italic">
+        {subtitle}
+      </h2>
+    )}
     <div class="my-2 flex items-center gap-2">
       <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
       <span aria-hidden="true" class="max-sm:hidden">|</span>

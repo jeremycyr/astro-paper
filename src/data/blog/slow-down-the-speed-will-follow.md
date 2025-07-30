@@ -1,6 +1,7 @@
 ---
 
 title: "Slow Down! The Speed Will Follow"
+subtitle: "Like piano, effective AI development starts with fundamentals."
 description: "The AI tooling that we're rushing to get into the hands of developers risks bypassing the development of fundamentals that are more important than ever."
 pubDatetime: 2025-07-29T12:00:00.000Z
 modDatetime: null
