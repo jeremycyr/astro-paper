@@ -21,7 +21,7 @@ canonicalURL: ""
 ![Piano keys in black and white](/assets/6066898898_d2cceb23c4_k.jpg)
 *Photo by [jronaldlee.com](https://jronaldlee.com)*
 
-I always wanted to play the piano, but lessons seemed so boring—play the same simple dull piece over and over, I'd much rather play something good, and figure it out on my own!  If I can play something more complicated, why would I want to waste time with the simple stuff? It felt like I'd be moving backwards. 
+I always wanted to play the piano, but lessons seemed so boring—play the same simple dull piece over and over, I'd much rather play something good, and figure it out on my own!  If I can play something more complicated, why would I want to waste time with the simple stuff? 
 
 So I did that for a while; I'd listen to a song, figure it out, look up a chord tab, play it over and over until I got it.  I sounded reasonably good to someone who didn't know better.  But when I tried to learn something more complicated, push myself to the next level, I hit an immediate and immovable wall.  No matter how hard I practiced, I couldn't pick it up.  My brain knew what I wanted to do, but my hands wouldn't cooperate.   
 
