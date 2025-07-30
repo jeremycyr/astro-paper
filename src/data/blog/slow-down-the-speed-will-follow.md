@@ -26,7 +26,7 @@ I was missing the foundational skills: the muscle memory, the posture, the theor
 
 Piano teachers will roll their eyes when you try to skip the basics—and with good reason. The basics work. Go rogue, and you'll hit a wall that often requires unlearning bad habits before making real forward progress.
 
-Modern AI Dev tooling is bring this pattern of risk front and center in software development.  The tools that we're rushing to get into the hands of our developers make it trivially easy in many circumstances to skip the fundamentals and go straight to the output.  But there are costs to jumping ahead without the fundamentals firmly locked down.   
+Modern AI development tooling brings this risk front and center. The tools that we're rushing to get into the hands of our developers make it trivially easy in many circumstances to skip the fundamentals and go straight to the output.  But there are costs to jumping ahead without the base layer of understanding firmly locked down.   
 
 ## The Irresistable Call of AI Tooling
 
@@ -44,13 +44,10 @@ Unchecked, these tools can be massive technical debt generators, layering oft mi
 
 You start to see the symptoms:
 
-Projects stall when the tooling can no longer adequately reason about the complexity, and the developer is unable to unwind it or guide it. Large parts of functionality start to regress with new features.
-
-Code reviews where contributors can’t explain what their code actually does, or may not have even seen or considered the code prior to the review.
-
-Projects that seem to make massive quick progress, but disintegrate when the rubber hits the road on non-trivial requirements.
-
-Systems that are either dangerously naive or bloated with abstractions and complexity not grounded to a real requirement or mitigation. 
+* Projects stall when the tooling can no longer adequately reason about the complexity, and the developer is unable to unwind it or guide it. Large parts of functionality start to regress with new features.
+* Code reviews where contributors can’t explain what their code actually does, or may not have even seen or considered the code prior to the review.
+* Projects that seem to make massive quick progress, but disintegrate when the rubber hits the road on non-trivial requirements.
+* Systems that are either dangerously naive or bloated with abstractions and complexity not grounded to a real requirement or mitigation. 
 
 Some of these may pass silently, charged to the Technical Debt Credit Card for later payment, while the bigger and louder issues will derail and disrupt projects outright.
 
@@ -60,16 +57,16 @@ While a seasoned engineer may have the background and knowledge base to avoid th
 
 Learning these fundamental principals becomes much more difficult the higher the level of abstraction. We need to both setup a development structure that encourages the building of these base layer skills, and identify and correct the risky practices before they become embedded or fail.
 
-Twinkle-twinkle before _La Campanella_. Before handing over high-powered tools, make sure early-career developers have built things the hard way. Help them wrestle with error messages, trace bugs by hand, write code from scratch. If you can, intentionally limit access to advanced tooling, while explaining the reasoning behind the choice.  Then, phase in AI deliberately:
+Twinkle-twinkle before _La Campanella_. Before pushing toward the high-powered tools, encourage early-career developers to build things the hard way. Create an environment where slow intentionality is re-enforced at the early career levels. Help them wrestle with error messages, trace bugs by hand, write code from scratch. Then, phase in AI deliberately while educating about the risks and rewards:
 
 * Start with basic autocomplete and Q&A tools.
 * Advance to cut-and-paste snippets that require understanding and adaptation.
 * Move to integrated assistants that offer suggestions—but still require human steering.
 * Graduate to agentic systems only once foundational judgment is already in place.
 
-All along, require justification. Ask: Why this approach? What trade-offs did you consider? What breaks if your assumptions are wrong?  The feedback loop is especially important, as much of this tooling can create output that may successfully produce the desired outcome, with significant hidden costs both to the codebase and the developer's base understanding.  
+All along, have conversations about justification. Ask: Why this approach? What trade-offs did you consider? What breaks if your assumptions are wrong?  The feedback loop is especially important, as much of this tooling can create output that may successfully produce the desired outcome superficially, with significant hidden costs both to the codebase and the developer's level of understanding.  
 
-As leaders, we need to be the piano teachers. Push for structure. Demand fundamentals. And above all, create an environment with a progression of intentional learning through level-appropriate friction. 
+As leaders, we need to be the piano teachers. Push for structure. Encourage fundamentals. And above all, create an environment with a progression of intentional learning with level-appropriate friction and speed. 
 
 ## Foundations First, Fluency Follows
 
@@ -77,6 +74,6 @@ As leaders, we need to be the piano teachers. Push for structure. Demand fundame
 
 Like music, software has structure. And just like a pianist can't fake their way through a complex passage without foundational technique, a developer can't reason well about systems they never learned to construct. They can't explain why something works, how to fix it when it breaks, or when not to build it at all.
 
-As teams, we can’t just hand over the sheet music and hope for the best. We have to create an environment where foundational learning is expected—and supported with intentional friction. That means guiding or limiting tool use, giving space for struggle, while guiding and correcting if the tooling is used irresponsibly. It means asking questions that require judgment, not just output. 
+As teams, we can’t just hand over the sheet music and hope for the best. We have to create an environment where foundational learning is expected and encouraged—and supported with slow and intentional friction. That means guiding appropriate tool use, giving space for struggle, while guiding and course-correcting.
 
 If we want to grow engineers who can design, adapt, and lead—not just copy, paste, and prompt—we need to give them room to learn the scales. To make mistakes. To understand the why beneath the what.
