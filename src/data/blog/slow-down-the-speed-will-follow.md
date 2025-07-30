@@ -29,7 +29,7 @@ I was missing an entire massive foundation of skills and skipping right to the o
 
 Piano teachers will roll their eyes when you try to skip the basics—and it's with good reason.  The basics work, and they have for a long time, refined carefully and intentionally over literal centuries.  You can't short circuit that with some quick youtube and memorization. If you go rogue, you'll hit a wall that will often require unlearning bad habits before making forward progress. 
 
-Modern AI development tooling brings this risk pattern front and center in software development. The tools that we’re rushing to get into the hands of developers make it trivially easy to skip the fundamentals and go straight to the output. But like my playing a song based on some Synthesia video I found on Youtube, there are costs to jumping ahead without the base layer of understanding firmly locked down.
+Modern AI development tooling brings this risk pattern front and center in software development. The tools that we’re rushing to get into the hands of developers make it trivially easy to skip the fundamentals and go straight to the output. But like my playing a song based on some Synthesia piano tutorial I found on Youtube, there are costs to jumping ahead without the base layer of understanding firmly locked down.
 
 ## The Irresistable Call of AI Tooling
 
@@ -39,9 +39,9 @@ The pipeline that once slowly shaped problem-solvers through repetition and refi
 
 ## What We're Losing
 
-Instead of learning through the grind of debugging and iteration, junior developers can now create impressive looking output instantly—often without fully grasping any of the implementation details.
+Instead of learning through the grind of debugging and iteration, it's now possible for early-career developers to create impressive looking output instantly—often without fully grasping any of the implementation details.
 
-They can ship code that works superficially, but can they explain why it works? Can they reason through edge cases, scalability, or failure modes? When things break, do they know how to trace the fault? 
+It's trivial to ship code that works superficially, but can they explain why it works? Can they reason through edge cases, scalability, or failure modes? When things break, do they know how to trace the fault? 
 
 Unchecked, these tools can be massive technical debt generators, layering oft misguided or unnecessary complexity with inconsistent and difficult to maintain patterns, security holes, and disjointed repetition.
 
