@@ -79,4 +79,4 @@ Like music, software has structure. And just like a pianist can't fake their way
 
 As teams, we can’t just hand over the sheet music and hope for the best. We have to create an environment where foundational learning is expected, encouraged, and supported with slow and intentional friction. That means guiding appropriate tool use, helping with evaluation and pushback, and giving space and time for struggle.
 
-If we want to grow engineers who can design, adapt, and lead—not just copy, paste, and prompt—we need to give them room to learn the scales. To make mistakes. To build the muscle memory of why beneath the what.
+If we want to grow engineers who can design, adapt, and lead—not just copy, paste, and prompt—we need to give them room to learn the scales. To make mistakes. To build the muscle memory of the why beneath the what.
