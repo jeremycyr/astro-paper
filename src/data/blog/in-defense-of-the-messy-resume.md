@@ -14,9 +14,11 @@ tags:
 description: "Why the most adaptable and resourceful engineers often have the messiest career paths—and why curiosity, not careful choreography, builds the judgment that matters most."
 ---
 
-What makes a Senior Developer? What makes a Staff Developer? What makes an Architect? "Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
+What makes a Senior Developer? A Staff Engineer? An Architect?
 
-These questions aren’t unexpected or unfair. Advocating for your career progression matters—and understanding how growth is measured can absolutely help you navigate it. The challenge is that if one views their career as a simple, logical, stepwise progression, we may miss the most important aspects of development that let us bring value— namely: the skills and experience that develop in the messy, non-linear and unpredictable edges of life.
+"Why do you ask?" I'll probe, and the result is often revealing: "I want to know how to get to the next level." or "I'm wondering if I'm ready to be a Senior."
+
+Fair questions. Career growth matters. And understanding how it's measured can help. But if you treat your path solely like a clean, stepwise ladder—title after title—you risk missing what actually builds value: the skills, insight, and judgment that emerge from the messy, unpredictable edges.
 
 ![Goodhart's Law](/assets/blog1/metric.png)
 
@@ -26,7 +28,7 @@ These questions aren’t unexpected or unfair. Advocating for your career progre
 
 **Goodhart's Law:** When a metric becomes a target, it ceases to be a good metric. Or more casually: "If you make a game, people will play it."
 
-It's little wonder—we're drawn to sequences and structure as humans, and we've made ourselves a lot of them. Volunteer—it'll look good on your college applications. Land the right internship, turn it into an offer. Pick the right company. Climb the ladder: Junior > Dev > Senior. Make a Strategic Company Change. Staff > Principal > Manager > Director. Another Move. VP > CTO. You can't have any gaps on your resume, it might look like nobody wanted you!
+We love structure. Volunteer—it looks good on college apps. Land the right internship. Convert it. Pick the right company. Junior > Dev > Senior. Strategic move. Staff > Principal > Manager > Director. No gaps—people might wonder.
 
 The reality is that "messy" careers, those that don't follow a careful expected choreography, are often an indicator of something very important: **curiosity**. And having an active and developed curiosity is a massive distinct advantage, especially in any field that aims to solve problems, which is, well, most of them. 
 
