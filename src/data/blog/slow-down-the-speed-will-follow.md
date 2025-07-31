@@ -33,7 +33,7 @@ Modern AI development tooling brings this risk pattern front and center in softw
 
 ## The Irresistable Call of AI Tooling
 
-There's no doubt that the AI tools available today are doing things we couldn't have imagined a few years ago.  Scaffolding projects, answering questions, developing against complex patterns, writing tests, debugging.  In the hands of someone experienced these tools can increase the velocity of development many times over.  But as we build up the next generation of experienced engineers with access to these tools, how are they to learn those ever important fundamentals if we've delegated away the execution?
+AI tools today can scaffold projects, debug code, and write tests at unprecedented speed. In experienced hands, they multiply productivity massively. But as we build the next generation of engineers with these tools, how do they learn fundamentals necessary to use the tools effectively, if we've delegated away the execution?
 
 The pipeline that once slowly shaped problem-solvers through repetition and refinement now risks producing operators of tools—not architects of systems.
 
@@ -71,7 +71,7 @@ All along, we should be having conversations about justification. Ask: Why this 
 
 As leaders, we need to be the piano teachers. Encourage fundamentals first. Work slow. Give the structure in which to improve these skills without skipping to the output by creating an environment with a progression of intentional learning—supported by level-appropriate friction and speed. 
 
-## Foundations First, Fluency Follows
+## Foundations then Fluency
 
 "Slow down! The speed will follow," my piano teacher would say when I rushed ahead of my skills.
 
